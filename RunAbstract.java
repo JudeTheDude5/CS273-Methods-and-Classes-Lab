@@ -17,7 +17,7 @@ public abstract class RunAbstract extends JFrame implements ActionListener {
     public RunAbstract() {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setTitle("Die Rolling");
-        this.setSize(520, 550);
+        this.setSize(620, 650);
         this.setPreferredSize(this.getSize());
 
         // create top-level panel
@@ -30,7 +30,7 @@ public abstract class RunAbstract extends JFrame implements ActionListener {
                 display(g);
             }
         };
-        canvas.setSize(500, 300);
+        canvas.setSize(600, 400);
         canvas.setPreferredSize(canvas.getSize());
 
         addButtons(topPanel);
