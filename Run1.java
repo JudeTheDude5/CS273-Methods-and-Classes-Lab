@@ -27,5 +27,7 @@ public class Run1 extends RunAbstract {
     protected void addDice() {
         // create the die
         myDie = new Die();
+        
+        // Adds another dice
     }
 }

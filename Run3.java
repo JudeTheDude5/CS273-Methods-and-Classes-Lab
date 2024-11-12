@@ -27,6 +27,8 @@ public class Run3 extends Run2 {
             myDie.setSize(myDie.getSize() - 10);
         }        
         
+        // IF you press the size+ and size- buttons it will change their size and redraw them
+        
         repaint();
     }    
 }

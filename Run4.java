@@ -46,5 +46,7 @@ public class Run4 extends Run3 {
         myDie.setSize(150);
         myDie2 = new Die(210, 50);
         myDie2.setSize(50);
+        
+        // Adds two new die with different sizes and locations
     }
 }

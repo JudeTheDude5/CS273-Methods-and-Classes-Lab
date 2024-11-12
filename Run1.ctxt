@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Run1
+comment1.params=
+comment1.target=void\ main1()
+comment2.params=
+comment2.target=Run1()
+comment3.params=g
+comment3.target=void\ display(java.awt.Graphics)
+comment4.params=
+comment4.target=void\ processRollButton()
+comment5.params=
+comment5.target=void\ addDice()
+numComments=6
