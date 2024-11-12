@@ -16,6 +16,8 @@ public class Run3 extends Run2 {
     protected void addDice() {
         super.addDice();
         myDie.setSize(150);
+        
+        // Calls their super code since these all extend each other and Die to make their dice with a certain size initialized
     }
 
     @Override

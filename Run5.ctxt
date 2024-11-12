@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Run5
+comment1.params=
+comment1.target=void\ main5()
+comment2.params=
+comment2.target=Run5()
+comment3.params=c
+comment3.target=void\ addMessageFields(java.awt.Container)
+comment4.params=
+comment4.target=javax.swing.JTextField\ createDefaultTextField()
+comment5.params=
+comment5.target=void\ updateMinMax()
+comment6.params=
+comment6.target=void\ processRollButton()
+comment7.params=
+comment7.target=void\ printMessages()
+comment8.params=
+comment8.target=void\ addDice()
+numComments=9
