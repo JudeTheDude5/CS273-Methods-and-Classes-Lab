@@ -64,6 +64,9 @@ public class Run5 extends Run4 {
         maxMsgField.setText("The maximum roll so far is " + maxRoll);
         bothMsgField.setText("The current die values are " + myDie + " and " + myDie2);
         
+        // Initializes the text fields within the window
+        // Then calls the equal method for the 2 dice in Die to get back a true or false statement for if the dice are doubles
+        
         if (myDie.equals(myDie2)) {
             doublesMsgField.setText("We have doubles");
         }
