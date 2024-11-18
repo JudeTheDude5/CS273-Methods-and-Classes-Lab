@@ -47,6 +47,7 @@ public class Run4 extends Run3 {
         myDie2 = new Die(210, 50);
         myDie2.setSize(50);
         
-        // Adds two new die with different sizes and locations
+        // Initiates two new Die instances with different origin points and sizes
+        // This allows us to have two dice too roll
     }
 }

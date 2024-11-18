@@ -17,7 +17,8 @@ public class Run3 extends Run2 {
         super.addDice();
         myDie.setSize(150);
         
-        // Calls their super code since these all extend each other and Die to make their dice with a certain size initialized
+        // Calls their super code since we have an add dice function within Run1 and this extends Run2 which extends Run1
+        // This keeps us from having to make a second redundent add dice function in Run3
     }
 
     @Override
@@ -30,6 +31,7 @@ public class Run3 extends Run2 {
         }        
         
         // IF you press the size+ and size- buttons it will change their size and redraw them
+        // By calling changes on the dice instance
         
         repaint();
     }    

@@ -28,6 +28,7 @@ public class Run1 extends RunAbstract {
         // create the die
         myDie = new Die();
         
-        // Adds another dice
+        // Initiates a Die object for this run1 so that
+        // We can nuse this instance for rolling and drawing
     }
 }
